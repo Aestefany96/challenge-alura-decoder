@@ -1,0 +1,90 @@
+.header{ 
+font-weight: 600;
+font-size: 400px;
+line-height: 100%;
+}
+
+
+body{
+    background-color: #8cd0ed;
+}
+
+main{
+   display: flex; 
+   margin-left: 200px;
+   margin-bottom:500px;
+}
+
+.input-texto{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 70px 30px;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.mensaje {
+    display: inline-block;
+    text-align: center;
+    width: 150%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-image: url("imagenes/Mueco.png");
+    background-repeat: no-repeat;   
+    background-position: 100px;
+    background-size: 150px;
+
+}
+
+.copiar{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 200px;
+
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.encriptar {
+    background-color:rgb(0, 0, 0);
+    color:rgb(178, 178, 207);
+}
+
+.desencriptar {
+margin-left: 50px;
+background-color: rgb(0, 0, 0);
+color:rgb(178, 178, 207);
+}
+
+.informacion{
+     font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
